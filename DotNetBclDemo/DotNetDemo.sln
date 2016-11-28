@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfRoutingEventDemo", "WpfR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfBehaviorDemo", "WpfBehaviorDemo\WpfBehaviorDemo.csproj", "{3B017325-BFBA-4CE8-8D06-B96322A7DFD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionAttributeDemo", "ExceptionAttributeDemo\ExceptionAttributeDemo.csproj", "{2CBC6E62-37E6-435D-ADD7-D9244F942DAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,14 @@ Global
 		{3B017325-BFBA-4CE8-8D06-B96322A7DFD7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3B017325-BFBA-4CE8-8D06-B96322A7DFD7}.Release|x86.ActiveCfg = Release|Any CPU
 		{3B017325-BFBA-4CE8-8D06-B96322A7DFD7}.Release|x86.Build.0 = Release|Any CPU
+		{2CBC6E62-37E6-435D-ADD7-D9244F942DAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CBC6E62-37E6-435D-ADD7-D9244F942DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CBC6E62-37E6-435D-ADD7-D9244F942DAC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2CBC6E62-37E6-435D-ADD7-D9244F942DAC}.Debug|x86.Build.0 = Debug|Any CPU
+		{2CBC6E62-37E6-435D-ADD7-D9244F942DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CBC6E62-37E6-435D-ADD7-D9244F942DAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CBC6E62-37E6-435D-ADD7-D9244F942DAC}.Release|x86.ActiveCfg = Release|Any CPU
+		{2CBC6E62-37E6-435D-ADD7-D9244F942DAC}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,5 +63,6 @@ Global
 		{8640922B-A67B-459F-9DB9-C01BE505BFF5} = {A1A27C35-81D0-4F7A-B643-5955DB398F10}
 		{613F1B80-57A7-44A4-9CDF-6DFC9EC6EB0C} = {36F4680B-20E1-4D3B-AEF6-53730B9AE570}
 		{3B017325-BFBA-4CE8-8D06-B96322A7DFD7} = {36F4680B-20E1-4D3B-AEF6-53730B9AE570}
+		{2CBC6E62-37E6-435D-ADD7-D9244F942DAC} = {A1A27C35-81D0-4F7A-B643-5955DB398F10}
 	EndGlobalSection
 EndGlobal
