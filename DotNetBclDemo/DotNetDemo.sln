@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YieldConsoleDemo", "YieldDemo\YieldConsoleDemo.csproj", "{8640922B-A67B-459F-9DB9-C01BE505BFF5}"
 EndProject
@@ -22,6 +22,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfDataGridRowGragDrop", "WpfDataGridRowGragDrop\WpfDataGridRowGragDrop.csproj", "{E62BBF9F-88F4-4164-9F35-078E575F9005}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf.Caliburn.Demo", "Wpf.Caliburn.Demo\Wpf.Caliburn.Demo.csproj", "{B225906D-AD1B-440B-A34A-29A0B9B57738}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectToString", "ObjectToString\ObjectToString.csproj", "{5C059BD2-ECAC-4746-92D3-F250D20430D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,14 @@ Global
 		{B225906D-AD1B-440B-A34A-29A0B9B57738}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B225906D-AD1B-440B-A34A-29A0B9B57738}.Release|x86.ActiveCfg = Release|Any CPU
 		{B225906D-AD1B-440B-A34A-29A0B9B57738}.Release|x86.Build.0 = Release|Any CPU
+		{5C059BD2-ECAC-4746-92D3-F250D20430D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C059BD2-ECAC-4746-92D3-F250D20430D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C059BD2-ECAC-4746-92D3-F250D20430D8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5C059BD2-ECAC-4746-92D3-F250D20430D8}.Debug|x86.Build.0 = Debug|Any CPU
+		{5C059BD2-ECAC-4746-92D3-F250D20430D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C059BD2-ECAC-4746-92D3-F250D20430D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C059BD2-ECAC-4746-92D3-F250D20430D8}.Release|x86.ActiveCfg = Release|Any CPU
+		{5C059BD2-ECAC-4746-92D3-F250D20430D8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,5 +109,9 @@ Global
 		{69DECC1E-678B-4F81-A64C-5884279A3AD6} = {8A2BC188-B4E1-46BE-A8B9-CF020900E5B1}
 		{E62BBF9F-88F4-4164-9F35-078E575F9005} = {36F4680B-20E1-4D3B-AEF6-53730B9AE570}
 		{B225906D-AD1B-440B-A34A-29A0B9B57738} = {36F4680B-20E1-4D3B-AEF6-53730B9AE570}
+		{5C059BD2-ECAC-4746-92D3-F250D20430D8} = {A1A27C35-81D0-4F7A-B643-5955DB398F10}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDA34448-A330-4DB2-B192-2BF197A4CCA8}
 	EndGlobalSection
 EndGlobal
