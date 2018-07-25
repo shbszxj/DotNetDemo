@@ -17,6 +17,7 @@ namespace ObjectToString
                 Revenue = 1000
             };
             Console.WriteLine($"Customer record : {customer.ToString("nrp", null)}");
+            Console.WriteLine($"Customer record : {string.Format(new MyFormatter(), "{0}", customer)}");
             Console.Read();
         }
     }
