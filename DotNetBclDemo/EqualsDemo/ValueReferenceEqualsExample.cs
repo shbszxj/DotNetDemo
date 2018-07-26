@@ -12,16 +12,8 @@ namespace EqualsDemo
         {
             int i = 5;
             int j = 5;
-
-            if (ReferenceEquals(i, j))
-                Console.WriteLine("Never happens.");
-            else
-                Console.WriteLine("Always happens.");
-
-            if (ReferenceEquals(i, i))
-                Console.WriteLine("Never happens.");
-            else
-                Console.WriteLine("Always happens.");
+            Console.WriteLine($"i = 5, j = 5, ReferenceEquals = {ReferenceEquals(i, j)}");
+            Console.WriteLine($"i = 5, i = 5, ReferenceEquals = {ReferenceEquals(i, i)}");
         }
     }
 }
