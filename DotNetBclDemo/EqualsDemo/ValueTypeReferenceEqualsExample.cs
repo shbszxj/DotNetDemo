@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EqualsDemo
 {
-    public class ValueReferenceEqualsExample
+    public class ValueTypeReferenceEqualsExample
     {
         public void Example()
         {

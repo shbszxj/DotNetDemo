@@ -10,7 +10,7 @@ namespace EqualsDemo
     {
         static void Main(string[] args)
         {
-            new ValueReferenceEqualsExample().Example();
+            new ValueTypeReferenceEqualsExample().Example();
             Console.Read();
         }
     }
