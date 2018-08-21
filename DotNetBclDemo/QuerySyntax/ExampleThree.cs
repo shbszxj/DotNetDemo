@@ -38,5 +38,13 @@ namespace QuerySyntax
                    orderby (x * x + y * y) descending
                    select Tuple.Create(x, y);
         }
+
+        public static IEnumerable<Tuple<int, int>> MethodIndices()
+        {
+            return Enumerable.Range(0, 100).SelectMany(x =>
+                    Enumerable.Range(0, 100), (x, y) => Tuple.Create(x, y))
+                    .Where(pt => pt.Item1 + pt.Item2 < 100)
+                    .OrderByDescending(pt => pt.Item1 * pt.Item1 + pt.Item2 * pt.Item2);
+        }
     }
 }
