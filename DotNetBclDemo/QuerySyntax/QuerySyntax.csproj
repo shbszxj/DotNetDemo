@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ExampleOne.cs" />
+    <Compile Include="ExampleThree.cs" />
     <Compile Include="ExampleTwo.cs" />
     <Compile Include="Extensions.cs" />
     <Compile Include="Program.cs" />
