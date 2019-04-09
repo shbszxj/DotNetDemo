@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueTypeConstantAndAtomici
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfEnumToCheckbox", "WpfEnumToCheckbox\WpfEnumToCheckbox.csproj", "{5D2685CE-9EBE-4D95-9D9D-846B4E076F9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FtpClientTest", "FtpClientTest\FtpClientTest.csproj", "{2BBB28F5-ADE6-46F7-96CE-F651B7084921}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,14 @@ Global
 		{5D2685CE-9EBE-4D95-9D9D-846B4E076F9A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5D2685CE-9EBE-4D95-9D9D-846B4E076F9A}.Release|x86.ActiveCfg = Release|Any CPU
 		{5D2685CE-9EBE-4D95-9D9D-846B4E076F9A}.Release|x86.Build.0 = Release|Any CPU
+		{2BBB28F5-ADE6-46F7-96CE-F651B7084921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BBB28F5-ADE6-46F7-96CE-F651B7084921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BBB28F5-ADE6-46F7-96CE-F651B7084921}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2BBB28F5-ADE6-46F7-96CE-F651B7084921}.Debug|x86.Build.0 = Debug|Any CPU
+		{2BBB28F5-ADE6-46F7-96CE-F651B7084921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BBB28F5-ADE6-46F7-96CE-F651B7084921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BBB28F5-ADE6-46F7-96CE-F651B7084921}.Release|x86.ActiveCfg = Release|Any CPU
+		{2BBB28F5-ADE6-46F7-96CE-F651B7084921}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -165,6 +175,7 @@ Global
 		{27ED42A0-1CF9-46E1-9EC1-D3026A0DA7CF} = {A1A27C35-81D0-4F7A-B643-5955DB398F10}
 		{E5B027E9-9CE0-4890-8B82-4BC934145760} = {A1A27C35-81D0-4F7A-B643-5955DB398F10}
 		{5D2685CE-9EBE-4D95-9D9D-846B4E076F9A} = {36F4680B-20E1-4D3B-AEF6-53730B9AE570}
+		{2BBB28F5-ADE6-46F7-96CE-F651B7084921} = {A1A27C35-81D0-4F7A-B643-5955DB398F10}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDA34448-A330-4DB2-B192-2BF197A4CCA8}
