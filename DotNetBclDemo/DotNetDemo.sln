@@ -41,6 +41,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gof", "Gof", "{9CB1BA23-CB8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactory.Demo", "SimpleFactory.Demo\SimpleFactory.Demo.csproj", "{6AAEF685-FA8B-41DE-9198-ABEBA52156BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern.Demo", "StrategyPattern.Demo\StrategyPattern.Demo.csproj", "{A2EB0DC4-F227-4242-938F-5B49020D12DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -169,6 +171,14 @@ Global
 		{6AAEF685-FA8B-41DE-9198-ABEBA52156BB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6AAEF685-FA8B-41DE-9198-ABEBA52156BB}.Release|x86.ActiveCfg = Release|Any CPU
 		{6AAEF685-FA8B-41DE-9198-ABEBA52156BB}.Release|x86.Build.0 = Release|Any CPU
+		{A2EB0DC4-F227-4242-938F-5B49020D12DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2EB0DC4-F227-4242-938F-5B49020D12DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2EB0DC4-F227-4242-938F-5B49020D12DE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A2EB0DC4-F227-4242-938F-5B49020D12DE}.Debug|x86.Build.0 = Debug|Any CPU
+		{A2EB0DC4-F227-4242-938F-5B49020D12DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2EB0DC4-F227-4242-938F-5B49020D12DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2EB0DC4-F227-4242-938F-5B49020D12DE}.Release|x86.ActiveCfg = Release|Any CPU
+		{A2EB0DC4-F227-4242-938F-5B49020D12DE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -189,6 +199,7 @@ Global
 		{5D2685CE-9EBE-4D95-9D9D-846B4E076F9A} = {36F4680B-20E1-4D3B-AEF6-53730B9AE570}
 		{2BBB28F5-ADE6-46F7-96CE-F651B7084921} = {A1A27C35-81D0-4F7A-B643-5955DB398F10}
 		{6AAEF685-FA8B-41DE-9198-ABEBA52156BB} = {9CB1BA23-CB8E-46E4-8F33-04F58DC3998D}
+		{A2EB0DC4-F227-4242-938F-5B49020D12DE} = {9CB1BA23-CB8E-46E4-8F33-04F58DC3998D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDA34448-A330-4DB2-B192-2BF197A4CCA8}
