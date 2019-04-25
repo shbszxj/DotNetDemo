@@ -4,6 +4,7 @@ using Patagames.Pdf.Net;
 using System;
 using System.Diagnostics;
 using System.Drawing;
+using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
 
@@ -38,7 +39,7 @@ namespace PdfToImage.Test
                     {
                         bitmap.FillRect(0, 0, width, height, FS_COLOR.White);
                         page.Render(bitmap, 0, 0, width, height, PageRotate.Normal, RenderFlags.FPDF_LCD_TEXT);
-                        bitmap.Image.Save($"{_projectDir}\\Samples\\outputs\\output_{index}.jpg");
+                        bitmap.Image.Save($"{_projectDir}\\Samples\\outputs\\output_{index}.jpg", ImageFormat.Jpeg);
                     }
                 }
                 watch.Stop();
