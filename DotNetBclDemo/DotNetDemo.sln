@@ -59,6 +59,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WCF", "WCF", "{FCF7681B-796
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageInspector", "..\WCF\MessageInspector\MessageInspector.csproj", "{1E5D2630-94FD-4DA7-A167-97E274DC3A08}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf.SelectableControl", "..\WPF\Wpf.SelectableControl\Wpf.SelectableControl.csproj", "{FCD01783-AAF9-4D0E-BCAE-1DA3C0FCC811}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +245,14 @@ Global
 		{1E5D2630-94FD-4DA7-A167-97E274DC3A08}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1E5D2630-94FD-4DA7-A167-97E274DC3A08}.Release|x86.ActiveCfg = Release|Any CPU
 		{1E5D2630-94FD-4DA7-A167-97E274DC3A08}.Release|x86.Build.0 = Release|Any CPU
+		{FCD01783-AAF9-4D0E-BCAE-1DA3C0FCC811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCD01783-AAF9-4D0E-BCAE-1DA3C0FCC811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCD01783-AAF9-4D0E-BCAE-1DA3C0FCC811}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FCD01783-AAF9-4D0E-BCAE-1DA3C0FCC811}.Debug|x86.Build.0 = Debug|Any CPU
+		{FCD01783-AAF9-4D0E-BCAE-1DA3C0FCC811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCD01783-AAF9-4D0E-BCAE-1DA3C0FCC811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCD01783-AAF9-4D0E-BCAE-1DA3C0FCC811}.Release|x86.ActiveCfg = Release|Any CPU
+		{FCD01783-AAF9-4D0E-BCAE-1DA3C0FCC811}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -270,6 +280,7 @@ Global
 		{1FDE0E12-90E9-4968-B3A4-603954686201} = {F3EFDF24-EA79-458B-95C6-9CD488ECDEDB}
 		{268A496E-7E2D-480E-B0ED-ED53C96444EA} = {9CB1BA23-CB8E-46E4-8F33-04F58DC3998D}
 		{1E5D2630-94FD-4DA7-A167-97E274DC3A08} = {FCF7681B-796B-4363-9DC4-86BC3B662121}
+		{FCD01783-AAF9-4D0E-BCAE-1DA3C0FCC811} = {36F4680B-20E1-4D3B-AEF6-53730B9AE570}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDA34448-A330-4DB2-B192-2BF197A4CCA8}
