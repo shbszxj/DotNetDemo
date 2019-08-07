@@ -3,63 +3,65 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YieldConsoleDemo", "YieldDemo\YieldConsoleDemo.csproj", "{8640922B-A67B-459F-9DB9-C01BE505BFF5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YieldConsoleDemo", "DotNetBclDemo\YieldDemo\YieldConsoleDemo.csproj", "{8640922B-A67B-459F-9DB9-C01BE505BFF5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotNetBclDemo", "DotNetBclDemo", "{A1A27C35-81D0-4F7A-B643-5955DB398F10}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{36F4680B-20E1-4D3B-AEF6-53730B9AE570}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfRoutingEventDemo", "WpfRoutingEventDemo\WpfRoutingEventDemo.csproj", "{613F1B80-57A7-44A4-9CDF-6DFC9EC6EB0C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfRoutingEventDemo", "WPF\WpfRoutingEventDemo\WpfRoutingEventDemo.csproj", "{613F1B80-57A7-44A4-9CDF-6DFC9EC6EB0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfBehaviorDemo", "WpfBehaviorDemo\WpfBehaviorDemo.csproj", "{3B017325-BFBA-4CE8-8D06-B96322A7DFD7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfBehaviorDemo", "WPF\WpfBehaviorDemo\WpfBehaviorDemo.csproj", "{3B017325-BFBA-4CE8-8D06-B96322A7DFD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionAttributeDemo", "ExceptionAttributeDemo\ExceptionAttributeDemo.csproj", "{2CBC6E62-37E6-435D-ADD7-D9244F942DAC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionAttributeDemo", "DotNetBclDemo\ExceptionAttributeDemo\ExceptionAttributeDemo.csproj", "{2CBC6E62-37E6-435D-ADD7-D9244F942DAC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EntityFramework", "EntityFramework", "{8A2BC188-B4E1-46BE-A8B9-CF020900E5B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework6Demo", "EntityFramework6Demo\EntityFramework6Demo.csproj", "{69DECC1E-678B-4F81-A64C-5884279A3AD6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework6Demo", "EntityFramework\EntityFramework6Demo\EntityFramework6Demo.csproj", "{69DECC1E-678B-4F81-A64C-5884279A3AD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfDataGridRowGragDrop", "WpfDataGridRowGragDrop\WpfDataGridRowGragDrop.csproj", "{E62BBF9F-88F4-4164-9F35-078E575F9005}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfDataGridRowGragDrop", "WPF\WpfDataGridRowGragDrop\WpfDataGridRowGragDrop.csproj", "{E62BBF9F-88F4-4164-9F35-078E575F9005}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf.Caliburn.Demo", "Wpf.Caliburn.Demo\Wpf.Caliburn.Demo.csproj", "{B225906D-AD1B-440B-A34A-29A0B9B57738}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf.Caliburn.Demo", "WPF\Wpf.Caliburn.Demo\Wpf.Caliburn.Demo.csproj", "{B225906D-AD1B-440B-A34A-29A0B9B57738}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectToString", "ObjectToString\ObjectToString.csproj", "{5C059BD2-ECAC-4746-92D3-F250D20430D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectToString", "DotNetBclDemo\ObjectToString\ObjectToString.csproj", "{5C059BD2-ECAC-4746-92D3-F250D20430D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EqualsDemo", "EqualsDemo\EqualsDemo.csproj", "{E15C9931-B4E4-4591-9EB3-4C055D5D6E4B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EqualsDemo", "DotNetBclDemo\EqualsDemo\EqualsDemo.csproj", "{E15C9931-B4E4-4591-9EB3-4C055D5D6E4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuerySyntax", "QuerySyntax\QuerySyntax.csproj", "{69AD56C7-211B-4D64-851D-2EC77B893007}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuerySyntax", "DotNetBclDemo\QuerySyntax\QuerySyntax.csproj", "{69AD56C7-211B-4D64-851D-2EC77B893007}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamedParameter", "NamedParameter\NamedParameter.csproj", "{27ED42A0-1CF9-46E1-9EC1-D3026A0DA7CF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamedParameter", "DotNetBclDemo\NamedParameter\NamedParameter.csproj", "{27ED42A0-1CF9-46E1-9EC1-D3026A0DA7CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueTypeConstantAndAtomicity", "ValueTypeConstantAndAtomicity\ValueTypeConstantAndAtomicity.csproj", "{E5B027E9-9CE0-4890-8B82-4BC934145760}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueTypeConstantAndAtomicity", "DotNetBclDemo\ValueTypeConstantAndAtomicity\ValueTypeConstantAndAtomicity.csproj", "{E5B027E9-9CE0-4890-8B82-4BC934145760}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfEnumToCheckbox", "WpfEnumToCheckbox\WpfEnumToCheckbox.csproj", "{5D2685CE-9EBE-4D95-9D9D-846B4E076F9A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfEnumToCheckbox", "WPF\WpfEnumToCheckbox\WpfEnumToCheckbox.csproj", "{5D2685CE-9EBE-4D95-9D9D-846B4E076F9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FtpClientTest", "FtpClientTest\FtpClientTest.csproj", "{2BBB28F5-ADE6-46F7-96CE-F651B7084921}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FtpClientTest", "DotNetBclDemo\FtpClientTest\FtpClientTest.csproj", "{2BBB28F5-ADE6-46F7-96CE-F651B7084921}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gof", "Gof", "{9CB1BA23-CB8E-46E4-8F33-04F58DC3998D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactory.Demo", "SimpleFactory.Demo\SimpleFactory.Demo.csproj", "{6AAEF685-FA8B-41DE-9198-ABEBA52156BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactory.Demo", "Gof\SimpleFactory.Demo\SimpleFactory.Demo.csproj", "{6AAEF685-FA8B-41DE-9198-ABEBA52156BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern.Demo", "StrategyPattern.Demo\StrategyPattern.Demo.csproj", "{A2EB0DC4-F227-4242-938F-5B49020D12DE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern.Demo", "Gof\StrategyPattern.Demo\StrategyPattern.Demo.csproj", "{A2EB0DC4-F227-4242-938F-5B49020D12DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratePattern.Demo", "DecoratePattern.Demo\DecoratePattern.Demo.csproj", "{8434B264-007C-480C-8603-2BE692F04F2D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratePattern.Demo", "Gof\DecoratePattern.Demo\DecoratePattern.Demo.csproj", "{8434B264-007C-480C-8603-2BE692F04F2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentQueue.Test", "ConcurrentQueue.Test\ConcurrentQueue.Test.csproj", "{C88CC43F-6A2C-4340-B5AD-F0EC75C88D22}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentQueue.Test", "DotNetBclDemo\ConcurrentQueue.Test\ConcurrentQueue.Test.csproj", "{C88CC43F-6A2C-4340-B5AD-F0EC75C88D22}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Util", "Util", "{F3EFDF24-EA79-458B-95C6-9CD488ECDEDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfToImage.Test", "..\Util\PdfToImage.Test\PdfToImage.Test.csproj", "{208DCC08-4B1F-4AD1-AC92-7C6054DDC1FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfToImage.Test", "Util\PdfToImage.Test\PdfToImage.Test.csproj", "{208DCC08-4B1F-4AD1-AC92-7C6054DDC1FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfOptimizer", "..\Util\PdfOptimizer\PdfOptimizer.csproj", "{1FDE0E12-90E9-4968-B3A4-603954686201}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfOptimizer", "Util\PdfOptimizer\PdfOptimizer.csproj", "{1FDE0E12-90E9-4968-B3A4-603954686201}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern.Demo", "..\Gof\ProxyPattern.Demo\ProxyPattern.Demo.csproj", "{268A496E-7E2D-480E-B0ED-ED53C96444EA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern.Demo", "Gof\ProxyPattern.Demo\ProxyPattern.Demo.csproj", "{268A496E-7E2D-480E-B0ED-ED53C96444EA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WCF", "WCF", "{FCF7681B-796B-4363-9DC4-86BC3B662121}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageInspector", "..\WCF\MessageInspector\MessageInspector.csproj", "{1E5D2630-94FD-4DA7-A167-97E274DC3A08}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageInspector", "WCF\MessageInspector\MessageInspector.csproj", "{1E5D2630-94FD-4DA7-A167-97E274DC3A08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf.SelectableControl", "..\WPF\Wpf.SelectableControl\Wpf.SelectableControl.csproj", "{FCD01783-AAF9-4D0E-BCAE-1DA3C0FCC811}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf.SelectableControl", "WPF\Wpf.SelectableControl\Wpf.SelectableControl.csproj", "{FCD01783-AAF9-4D0E-BCAE-1DA3C0FCC811}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{7DAD5604-B841-4C67-8D42-227AB30E22BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
