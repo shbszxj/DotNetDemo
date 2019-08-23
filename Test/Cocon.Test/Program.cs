@@ -12,6 +12,9 @@ namespace Cocon.Test
         {
             var x = "6".CastEnumerationValue(MultiCosMeetingState.Error);
             Console.WriteLine(x);
+
+            Console.WriteLine(GetNumberOfPdfPages.Get("E:\\TELEVIC\\ConvertPdfToImage\\Original file\\Televic Asia Meetup Session 1.pdf"));
+
             Console.Read();
         }
     }

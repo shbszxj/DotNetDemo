@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EnumExtension.cs" />
+    <Compile Include="GetNumberOfPdfPages.cs" />
     <Compile Include="MultiCosMeetingState.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
