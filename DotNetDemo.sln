@@ -67,6 +67,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cocon.Test", "Test\Cocon.Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfValidationRule", "WPF\WpfValidationRule\WpfValidationRule.csproj", "{5789141B-5B27-4007-8CE9-8C056348541F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf.ListBox", "WPF\Wpf.ListBox\Wpf.ListBox.csproj", "{0EC72127-10C7-4726-8209-03313CFE363D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -275,6 +277,14 @@ Global
 		{5789141B-5B27-4007-8CE9-8C056348541F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5789141B-5B27-4007-8CE9-8C056348541F}.Release|x86.ActiveCfg = Release|Any CPU
 		{5789141B-5B27-4007-8CE9-8C056348541F}.Release|x86.Build.0 = Release|Any CPU
+		{0EC72127-10C7-4726-8209-03313CFE363D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EC72127-10C7-4726-8209-03313CFE363D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EC72127-10C7-4726-8209-03313CFE363D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0EC72127-10C7-4726-8209-03313CFE363D}.Debug|x86.Build.0 = Debug|Any CPU
+		{0EC72127-10C7-4726-8209-03313CFE363D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EC72127-10C7-4726-8209-03313CFE363D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EC72127-10C7-4726-8209-03313CFE363D}.Release|x86.ActiveCfg = Release|Any CPU
+		{0EC72127-10C7-4726-8209-03313CFE363D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -305,6 +315,7 @@ Global
 		{FCD01783-AAF9-4D0E-BCAE-1DA3C0FCC811} = {36F4680B-20E1-4D3B-AEF6-53730B9AE570}
 		{FAB6FA0B-5FFB-4EF1-824E-4F1F8921413D} = {7DAD5604-B841-4C67-8D42-227AB30E22BA}
 		{5789141B-5B27-4007-8CE9-8C056348541F} = {36F4680B-20E1-4D3B-AEF6-53730B9AE570}
+		{0EC72127-10C7-4726-8209-03313CFE363D} = {36F4680B-20E1-4D3B-AEF6-53730B9AE570}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDA34448-A330-4DB2-B192-2BF197A4CCA8}
